@@ -1,0 +1,111 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background: #ffffff;
+  padding: 0 1rem;
+  background-image: url("https://www.transparenttextures.com/patterns/gplay.png");
+}
+
+header {
+  background-color: #f5ba13;
+  margin: auto -1rem;
+  padding: 1rem 2rem;
+  box-shadow: 0 0 .8rem 0 rgba(0, 0, 0, 0.3);
+}
+
+header h1 {
+  color: #fff;
+  font-family: "McLaren", cursive;
+  font-weight: 200;
+}
+
+footer {
+  color: #836000;
+  position: absolute;
+  text-align: center;
+  bottom: 0;
+  width: 98%;
+  height: 2.5rem;
+}
+
+footer p {
+  color: #836000;
+}
+
+.note {
+  background: #fff;
+  border-radius: .5rem;
+  box-shadow: 0 .2rem .3rem #ccc;
+  padding: .8rem;
+  width: 15rem;
+  margin: 1rem;
+  float: left;
+}
+
+.note h1 {
+  font-size: 1.1em;
+  margin-bottom: .375rem;
+}
+
+.note p {
+  font-size: 1.1em;
+  margin-bottom: .675rem;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+.note button {
+  position: relative;
+  float: right;
+  margin-right: .675rem;
+  color: #f5ba13;
+  border: none;
+  width: 2.25rem;
+  height: 2.25rem;
+  cursor: pointer;
+  outline: none;
+}
+
+form.create-note {
+  position: relative;
+  width: 30rem;
+  margin: 1.875rem auto 1.25rem auto;
+  background: #fff;
+  padding: 1rem;
+  border-radius: .5rem;
+  box-shadow: 0 1px 5px rgb(138, 137, 137);
+}
+
+form.create-note input,
+form.create-note textarea {
+  width: 100%;
+  border: none;
+  padding: .25rem;
+  outline: none;
+  font-size: 1.2em;
+  font-family: inherit;
+  resize: none;
+}
+
+form.create-note button {
+  position: absolute;
+  right: 1.125rem;
+  bottom: -1.125rem;
+  background: #f5ba13;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 2.25rem;
+  height: 2.25rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  outline: none;
+}
